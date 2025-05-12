@@ -10,7 +10,7 @@ Este repositório contém uma série de materiais introdutórios organizados em 
 ## 📚 Tópicos Disponíveis
 
 ### 🔧 Estrutura do Código
-- [estrutura_geral.md](FundamentosBasicos/estrutura_geral.md)
+- [estrutura_geral.md](FundamentosBasicos/arduino_basico.md)
 
 ### 📥📤 Entrada e Saída
 - [arduino_io_variaveis.md](FundamentosBasicos/arduino_io_variaveis.md)
