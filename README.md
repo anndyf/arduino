@@ -1,65 +1,63 @@
-# 🧠 Fundamentos Básicos de Arduino
+# Fundamentos Básicos de Arduino 🔌
 
-Este repositório reúne uma série de materiais introdutórios sobre o uso da plataforma **Arduino**, organizados em tópicos didáticos com exemplos práticos e explicações.
+Este repositório contém uma série de materiais introdutórios organizados em tópicos, voltados para estudantes iniciantes em eletrônica e programação com Arduino.
+
+📁 Acesse diretamente a pasta:  
+[github.com/anndyf/arduino/tree/main/FundamentosBasicos](https://github.com/anndyf/arduino/tree/main/FundamentosBasicos)
 
 ---
 
-## 📚 Conteúdo
+## 📚 Tópicos Disponíveis
 
-### 🔹 Estrutura e Sintaxe
+### 🔧 Estrutura do Código
+- [estrutura_geral.md](FundamentosBasicos/estrutura_geral.md)
 
-- [Estrutura Básica de um Código Arduino](./Fundamentos%20Básicos/arduino_basico.md)
-- [Declaração de Variáveis e Tipos](./Fundamentos%20Básicos/arduino_io_variaveis.md)
-- [Funções Personalizadas e Retorno](./Fundamentos%20Básicos/arduino_funcoes_personalizadas.md)
-- [Escopo de Variáveis](./Fundamentos%20Básicos/arduino_escopo_variaveis.md)
-- [Modularização do Código](./Fundamentos%20Básicos/arduino_modularizacao.md)
+### 📥📤 Entrada e Saída
+- [arduino_io_variaveis.md](FundamentosBasicos/arduino_io_variaveis.md)
 
-### 🔹 Entrada, Saída e Lógica
+### 🔁 Repetição e Lógica
+- [arduino_estruturas_repeticao.md](FundamentosBasicos/arduino_estruturas_repeticao.md)
+- [arduino_condicionais_operadores.md](FundamentosBasicos/arduino_condicionais_operadores.md)
 
-- [Funções de Entrada e Saída Digital e Analógica](./Fundamentos%20Básicos/arduino_io_variaveis.md)
-- [Condicionais e Operadores](./Fundamentos%20Básicos/arduino_condicionais_operadores.md)
-- [Estruturas de Repetição (`for`, `while`, `do...while`)](./Fundamentos%20Básicos/arduino_estruturas_repeticao.md)
+### 🧩 Organização do Código
+- [arduino_funcoes_personalizadas.md](FundamentosBasicos/arduino_funcoes_personalizadas.md)
+- [arduino_modularizacao.md](FundamentosBasicos/arduino_modularizacao.md)
+- [arduino_escopo_variaveis.md](FundamentosBasicos/arduino_escopo_variaveis.md)
 
-### 🔹 Comunicação
-
-- [Uso do Monitor Serial](./Fundamentos%20Básicos/arduino_monitor_serial.md)
-- [Comunicação via I2C](./Fundamentos%20Básicos/arduino_comunicacao_i2c.md)
+### 📟 Monitoramento
+- [arduino_monitor_serial.md](FundamentosBasicos/arduino_monitor_serial.md)
 
 ---
 
 ## ⚙️ Componentes Práticos
 
-### 💡 LEDs, Buzzers e PWM
+### 💡 Saídas
+- [arduino_led_pwm_fade.md](FundamentosBasicos/arduino_led_pwm_fade.md)
+- [arduino_buzzer_tone.md](FundamentosBasicos/arduino_buzzer_tone.md)
+- [arduino_modulo_rele.md](FundamentosBasicos/arduino_modulo_rele.md)
+- [arduino_servo_motor.md](FundamentosBasicos/arduino_servo_motor.md)
 
-- [Controle de LED com PWM (`analogWrite`)](./Fundamentos%20Básicos/arduino_led_pwm_fade.md)
-- [Uso do `millis()` para Temporização Sem `delay()`](./Fundamentos%20Básicos/arduino_millis_tempo.md)
-- [Controle de Buzzer com `tone()`](./Fundamentos%20Básicos/arduino_buzzer_tone.md)
+### 🌞 Sensores
+- [arduino_sensor_ldr.md](FundamentosBasicos/arduino_sensor_ldr.md)
+- [arduino_sensor_temperatura_lm35.md](FundamentosBasicos/arduino_sensor_temperatura_lm35.md)
+- [arduino_sensor_dht11.md](FundamentosBasicos/arduino_sensor_dht11.md)
+- [arduino_sensor_ultrassonico.md](FundamentosBasicos/arduino_sensor_ultrassonico.md)
 
-### 🔧 Atuadores
-
-- [Controle de Servo Motor com `Servo.h`](./Fundamentos%20Básicos/arduino_servo_motor.md)
-- [Módulo Relé – Controle de Dispositivos AC](./Fundamentos%20Básicos/arduino_modulo_rele.md)
-
-### 🌡️ Sensores
-
-- [Sensor LDR – Leitura de Luz Ambiente](./Fundamentos%20Básicos/arduino_sensor_ldr.md)
-- [Sensor de Temperatura LM35](./Fundamentos%20Básicos/arduino_sensor_temperatura_lm35.md)
-- [Sensor de Temperatura e Umidade DHT11](./Fundamentos%20Básicos/arduino_sensor_dht11.md)
-- [Sensor de Distância Ultrassônico HC-SR04](./Fundamentos%20Básicos/arduino_sensor_ultrassonico.md)
-
-### 📟 Displays
-
-- [Display LCD 16x2 com Módulo I2C](./Fundamentos%20Básicos/arduino_display_lcd_i2c.md)
+### 🟦 Displays e Comunicação
+- [arduino_display_lcd_i2c.md](FundamentosBasicos/arduino_display_lcd_i2c.md)
+- [arduino_comunicacao_i2c.md](FundamentosBasicos/arduino_comunicacao_i2c.md)
 
 ---
 
-## 📎 Observações
+## 🧠 Indicado Para
 
-- Todos os arquivos estão em formato `.md` e foram desenvolvidos com foco em ensino técnico e projetos educacionais.
-- Sinta-se à vontade para clonar, adaptar e contribuir!
+- Estudantes do ensino médio/técnico
+- Oficinas de Arduino
+- Autodidatas iniciantes na eletrônica
 
 ---
 
-## 🛠️ Autor
+## 🤝 Licença
 
-Desenvolvido por [@anndyf](https://github.com/anndyf)
+Distribuição livre para fins educacionais.  
+Sinta-se à vontade para sugerir melhorias ou abrir uma issue.
