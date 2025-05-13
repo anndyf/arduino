@@ -48,7 +48,7 @@ Periodo periodos[] = {
 const int NUM_ALARMES = 19;
 int alarmes[NUM_ALARMES][2] = {
   {7, 0}, {7, 45}, {8, 30}, {9, 15}, {10, 0}, {10, 20}, {11, 5},
-  {13, 0}, {13, 45}, {14, 30}, {15, 15}, {15, 35}, {16, 20}, {17, 5},
+  {13, 0}, {13, 45}, {14, 30}, {15, 15}, {16,00}, {16, 20}, {17, 5},
   {18, 30}, {19, 15}, {19, 35}, {20, 20}, {21, 5}
 };
 
@@ -130,16 +130,18 @@ void loop() {
   // Atualiza display se permitido
   if (mostrarDisplay) {
     display.clearDisplay();
-    display.setTextSize(2);
+    display.setTextSize(3);
     display.setCursor(20, 10);
     if (hora < 10) display.print("0");
     display.print(hora);
     display.print(":");
     if (minuto < 10) display.print("0");
     display.print(minuto);
-
     display.setTextSize(1);
-    display.setCursor(50, 40);
+    display.setCursor(35, 35);
+    display.print("CETEP/LNAB");
+    display.setTextSize(2);
+    display.setCursor(50, 50);
     display.print(periodo);
     display.display();
   } else {
