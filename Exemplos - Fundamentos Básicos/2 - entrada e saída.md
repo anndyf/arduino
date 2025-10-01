@@ -23,14 +23,15 @@ Siga este diagrama para conectar todos os componentes na protoboard.
 1.  **Conecte o Botão:**
 
       * Um lado do botão vai para o **5V** do Arduino.
-      * O outro lado do botão vai para o **pino digital 2** e, com um resistor de **10kΩ**, para o **GND**.
-      * **Conceito:** O resistor de 10kΩ é um `pull-down`. Ele garante que o pino 2 esteja sempre em `LOW` (0V) quando o botão não está pressionado, evitando leituras "flutuantes".
+      * O outro lado do botão vai para o **pino digital 3** e, com um resistor de **10kΩ**, para o **GND**.
+      * **Conceito:** O resistor de 10kΩ é um `pull-down`. Ele garante que o pino 3 esteja sempre em `LOW` (0V) quando o botão não está pressionado, evitando leituras "flutuantes".
 
 2.  **Conecte o LED:**
 
-      * O terminal mais longo (o ânodo) do LED vai para o **pino digital 13**.
+      * O terminal mais longo (o ânodo) do LED vai para o **pino digital 2**.
       * O terminal mais curto (o cátodo) vai para o **GND**, mas passe por um resistor de **220Ω** para protegê-lo de uma corrente alta.
 
+![Diagrama do Circuito - Botão e LED](https://i.imgur.com/Gj8aR3Q.png)
 -----
 
 ### 💻 Passo 2: O Código
@@ -40,8 +41,8 @@ Abra a IDE do Arduino e copie e cole este código. Ele é simples, mas ensina os
 ```cpp
 // ==== 🌍 Variáveis Globais (Escopo Global) ====
 // Definimos os pinos aqui para que possamos usá-los em qualquer parte do código.
-const int PINO_BOTAO = 2; // O botão está conectado ao pino 2
-const int PINO_LED = 13;  // O LED está conectado ao pino 13
+const int PINO_BOTAO = 3; // O botão está conectado ao pino 3
+const int PINO_LED = 2;  // O LED está conectado ao pino 2
 
 void setup() {
   // ==== 🔌 Pinos de Entrada e Saída ====
