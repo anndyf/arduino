@@ -31,7 +31,7 @@ Siga este diagrama para conectar todos os componentes na protoboard.
       * O terminal mais longo (o ânodo) do LED vai para o **pino digital 2**.
       * O terminal mais curto (o cátodo) vai para o **GND**, mas passe por um resistor de **220Ω** para protegê-lo de uma corrente alta.
 
-![Diagrama do Circuito - Botão e LED](https://i.imgur.com/Gj8aR3Q.png)
+![Diagrama do Circuito - Botão e LED](/Circuitos/2- led_botao.png)
 -----
 
 ### 💻 Passo 2: O Código
