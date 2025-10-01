@@ -10,15 +10,15 @@ Este diretório apresenta os principais conceitos da programação com Arduino d
 
 | Tema | Teoria | Exemplo |
 |------|--------|---------|
-| 🔁 Repetição (`for`, `while`) | [`arduino_estruturas_repeticao.md`](arduino_estruturas_repeticao.md) | [`Exemplo/arduino_estruturas_repeticao.md`](Exemplo/arduino_estruturas_repeticao.md) |
-| 🔀 Condicionais e Operadores | [`arduino_condicionais_operadores.md`](arduino_condicionais_operadores.md) | [`Exemplo/arduino_condicionais_operadores.md`](Exemplo/arduino_condicionais_operadores.md) |
-| 📥📤 Entrada e Saída + Variáveis | [`arduino_io_variaveis.md`](arduino_io_variaveis.md) | [`Exemplo/arduino_io_variaveis.md`](Exemplo/arduino_io_variaveis.md) |
-| 📟 Monitor Serial | [`arduino_monitor_serial.md`](arduino_monitor_serial.md) | [`Exemplo/arduino_monitor_serial.md`](Exemplo/arduino_monitor_serial.md) |
-| 💡 LED com PWM (fade) | [`arduino_led_pwm_fade.md`](arduino_led_pwm_fade.md) | [`Exemplo/arduino_led_pwm_fade.md`](Exemplo/arduino_led_pwm_fade.md) |
-| ⏱️ millis() | [`arduino_millis_tempo.md`](arduino_millis_tempo.md) | [`Exemplo/arduino_millis_tempo.md`](Exemplo/arduino_millis_tempo.md) |
-| 🔊 Buzzer | [`arduino_buzzer_tone.md`](arduino_buzzer_tone.md) | [`Exemplo/arduino_buzzer_tone.md`](Exemplo/arduino_buzzer_tone.md) |
+| 🚀 Básico | [`arduino_basico.md`](https://www.google.com/search?q=arduino_basico.md) | `[Adicione o link para o Exemplo]` |
+| 📥📤 Entrada e Saída + Variáveis | [`arduino_io_variaveis.md`](FundamentosBasicos/arduino_io_variaveis.md) | `[Adicione o link para o Exemplo]` |
+| 🔀 Condicionais e Operadores | [`arduino_condicionais_operadores.md`](https://www.google.com/search?q=arduino_condicionais_operadores.md) | `[Adicione o link para o Exemplo]` |
+| 🔁 Repetição (`for`, `while`) | [`arduino_estruturas_repeticao.md`](https://www.google.com/search?q=arduino_estruturas_repeticao.md) | `[Adicione o link para o Exemplo]` |
+| 🌍 Escopo de Variáveis | [`arduino_escopo_variaveis.md`](https://www.google.com/search?q=arduino_escopo_variaveis.md) | `[Adicione o link para o Exemplo]` |
+| 🛠️ Funções Personalizadas | [`arduino_funcoes_personalizadas.md`](https://www.google.com/search?q=arduino_funcoes_personalizadas.md) | `[Adicione o link para o Exemplo]` |
+| 📦 Modularização | [`arduino_modularizacao.md`](https://www.google.com/search?q=arduino_modularizacao.md) | `[Adicione o link para o Exemplo]` |
 
----
+-----
 
 ## ⚙️ Componentes e Sensores
 
