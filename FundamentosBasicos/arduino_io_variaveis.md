@@ -4,7 +4,7 @@ Neste guia, explicamos como usar os **pinos de entrada e saída** no Arduino e c
 
 -----
 
-## 🔌 Pinos de Entrada e Saída: A Ponte entre o Arduino e o Mundo\!
+## 🔌 Pinos de Entrada e Saída\!
 
 ### `pinMode(pino, modo)`
 
